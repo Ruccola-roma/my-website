@@ -6,10 +6,9 @@ title-block-banner-color: white
 
 #コヒはエスプレッソからドリップまで☕️
 
-#ジェラートとひとはcaramello salato
----
+## #ジェラートとひとはcaramello salato
 
-## Benvenuti al mondo di Ruccola!
+## Benvenuti nel Ruccolaの世界へ!
 
 ![](images/IMG_9070_Original.jpg)
 

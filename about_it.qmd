@@ -4,10 +4,10 @@ title-block-banner: roma.JPG
 title-block-banner-color: white
 ---
 
-#コヒはエスプレッソからドリップまで☕️
+# Dall'espresso al filtro ☕️
 
-#ジェラートとひとはcaramello salato
----
+# E gelato e persona, la mia scelta ricade sempre sul caramello salato
+
 
 ## Benvenuti al mondo di Ruccola!
 

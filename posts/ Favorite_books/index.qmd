@@ -1,0 +1,30 @@
+---
+title: "日々の思索と、手にとる本たち"
+title-block-banner-color: white
+date: "2026-09-06"
+categories: [Letture, Saggio, 本]
+---
+
+::: {style="text-align: right; font-size: 0.9em;"}
+<!-- もしイタリア語版の個別記事を別に作る場合はリンク、1つの記事内で両方書く場合は不要です -->
+:::
+
+> *Un breve pensiero sui libri che accompagnano le mie giornate e il mio percorso a Roma, tra studio e riflessione.*
+
+ローマでの日々の暮らしや学びの合間に、ふと立ち止まって手にとる本たち。
+
+------------------------------------------------------------------------
+
+## 『夢十夜』 夏目漱石
+
+ここにその本との出会いや、好きな理由、心に残っている一節などを書きます。
+
+-   **出会い:**
+-   **心に残る言葉:**
+-   **ローマの部屋で読み返して思うこと:**
+
+------------------------------------------------------------------------
+
+### In breve (per gli amici italiani)
+
+*Qui puoi aggiungere un breve commento in italiano per spiegare ai tuoi amici di cosa parla il libro e perché ti piace.*

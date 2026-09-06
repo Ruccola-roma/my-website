@@ -10,5 +10,14 @@
   },
   "about_it.qmd": {
     "about_it.html": "0308c2e7"
+  },
+  "posts.qmd": {
+    "posts.html": "0b99b0cb"
+  },
+  "Posts/ Favorite_books/index.qmd": {
+    "index.html": "32e363c8"
+  },
+  "posts/ Favorite_books/index.qmd": {
+    "index.html": "eb596d7c"
   }
 }
