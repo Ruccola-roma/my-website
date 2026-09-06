@@ -10,8 +10,6 @@ title-block-banner-color: white
 
 ### Benvenuti nel Ruccolaの世界へ! {#sec-benvenuti-nel-ruccolaの世界へ}
 
-![](images/IMG_9070_Original.jpg){width="4cm"}
-
 > <a href="about_it.html">🇮🇹 Versione italiana</a>
 
 ------------------------------------------------------------------------
