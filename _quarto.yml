@@ -1,0 +1,21 @@
+project:
+  type: website
+
+website:
+  title: ""
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - about.qmd
+
+format:
+  html:
+    theme: sandstone
+    css: styles.css
+    toc: true
+    mainfont: "Georgia"          # 本文：上品で読みやすいセリフ体
+    monofont: "Menlo, monospace"        # コードなど
+
+editor: visual
+
