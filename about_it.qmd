@@ -4,13 +4,22 @@ title-block-banner: roma.JPG
 title-block-banner-color: white
 ---
 
-# Dall'espresso al filtro ☕️
+#Dall'espresso al filtro ☕️
 
-# E gelato e persona, la mia scelta ricade sempre sul caramello salato
+#E gelato e persona, la mia scelta ricade sempre sul caramello salato
 
+#### Benvenuti nel mondo di Ruccola !
 
-## Benvenuti al mondo di Ruccola!
+### ▶︎ Chi sono
 
-![](images/IMG_9070_Original.jpg)
+Ciao! Mi chiamo Ruccola.
 
-------------------------------------------------------------------------
+Vivo a Roma da due anni. Attualmente sono al secondo anno della Laurea Magistrale in Studi Europei presso la Facoltà di Giurisprudenza (Dipartimento di Scienze Giuridiche ed Economiche).
+
+In passato ho trascorso l'anno accademico 2022/2023 a Bologna per un programma di scambio, dopo aver conseguito la laurea quadriennale in Giappone con un focus sulla politica comparata.
+
+I miei principali interessi di ricerca riguardano le politiche europee in materia di istruzione e inclusione oltre alla politica italiana.
+
+### ▶︎ Oltre lo studio
+
+Quando non sono sui libri, amo rilassarmi camminando per la città e parlando con le persone. Ho una passione per il caffè di qualità — sia il classico espresso che i metodi filtro —, per le opere di Natsume Sōseki, per il mare e, naturalmente, per il gelato e la cucina italiana.
