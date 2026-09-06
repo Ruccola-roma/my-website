@@ -1,0 +1,16 @@
+---
+title: "Mio Profilo"
+title-block-banner: roma.JPG
+title-block-banner-color: white
+---
+
+#コヒはエスプレッソからドリップまで☕️
+
+#ジェラートとひとはcaramello salato
+---
+
+## Benvenuti al mondo di Ruccola!
+
+![](images/IMG_9070_Original.jpg)
+
+------------------------------------------------------------------------
