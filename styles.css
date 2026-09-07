@@ -1,22 +1,103 @@
-/* 全体のスタイル */
+/* =======================================================
+   1. サイト共通設定（背景・文字色・見出し）
+   ======================================================= */
 body {
-  /* 背景画像（白のオーバーレイ85%） */
-  background-image: linear-gradient(rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.85)), url('roma.JPG');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  
-  /* 文字色を落ち着いた濃いチャコールグレーに */
-  color: #2c302e;
+  background-color: #fafafa;
+  color: #4a4f4d; /* 本文：柔らかな中間グレー */
 }
 
-/* 見出しも統一して引き締まったグレーに */
-h1, h2, h3, h4 {
-  color: #2c302e;
+h1, h2, h3, h4, h5, h6 {
+  color: #3a3e3c; /* 見出し：引き締まった中間グレー */
 }
 
-/* DIARIO（一覧ページ）や記事の中だけ背景を無地にしたい場合 */
-.page-posts, .page-favorite-books {
+/* =======================================================
+   2. ヘッダー共通設定（HOME・PROFILOなど写真あり）
+   ======================================================= */
+.navbar {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('/roma.JPG') !important;
+  background-size: cover !important;
+  background-position: center top !important;
+  background-repeat: no-repeat !important;
+  padding-top: 1.2rem;
+  padding-bottom: 1.2rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15) !important;
+}
+
+/* ナビゲーションの文字色（写真背景用：白） */
+.navbar .navbar-nav .nav-link,
+.navbar .navbar-brand {
+  color: #ffffff !important;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+}
+
+/* =======================================================
+   3. DIARIO（一覧・個別記事）：ヘッダーを白無地に上書き
+   ======================================================= */
+body.page-posts .navbar,
+body.page-favorite-books .navbar {
   background-image: none !important;
-  background-color: #fafafa !important;
+  background-color: #ffffff !important;
+  border-bottom: 1px solid #eeeeee !important;
+}
+
+/* DIARIOヘッダー内のメニュー文字色（薄めグレー） */
+body.page-posts .navbar .navbar-nav .nav-link,
+body.page-posts .navbar .navbar-brand,
+body.page-favorite-books .navbar .navbar-nav .nav-link,
+body.page-favorite-books .navbar .navbar-brand {
+  color: #4a4f4d !important;
+}
+
+/* =======================================================
+   4. ページ別背景設定
+   ======================================================= */
+/* =======================================================
+   2. HOME (index.qmd)
+   ======================================================= */
+body.page-home {
+  position: relative;
+  background-image: url('roma.JPG') !important;
+  background-size: cover !important;
+  background-position: center top !important;
+  background-repeat: no-repeat !important;
+   スクロールしても背景とベールが崩れない */
+}
+
+/* ページ全体（上から最下部まで）に白ベールを重ねる */
+body.page-home::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(250, 250, 250, 0.70); /* ここで白の濃さを調整（0.85 = 85%） */
+  z-index: -1; /* 文字の背面に配置 */
+  pointer-events: none;
+}
+
+/* =======================================================
+   3. PROFILO (about.qmd)
+   ======================================================= */
+body.page-about {
+  position: relative;
+  background-image: url('profilo.JPG') !important;
+  background-size: cover !important;
+  background-position: center top !important;
+  background-repeat: no-repeat !important;
+  background-attachment: fixed !important;
+}
+
+/* ページ全体に白ベールを重ねる */
+body.page-about::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(250, 250, 250, 0.70); /* 0.85 = 85% */
+  z-index: -1;
+  pointer-events: none;
 }

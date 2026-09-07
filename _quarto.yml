@@ -12,7 +12,7 @@ website:
       - href: posts.qmd
         text: DIARIO
       - href: about.qmd
-        text: MIO PROFILO
+        text: PROFILO
     right:
       - text: "🌐 Lingua"
         menu:
