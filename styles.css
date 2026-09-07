@@ -1,5 +1,22 @@
+/* 全体のスタイル */
 body {
+  /* 背景画像（白のオーバーレイ85%） */
   background-image: linear-gradient(rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.85)), url('roma.JPG');
   background-size: cover;
-  background-attachment: fixed;
-}/* css styles */
+  background-position: center;
+  background-repeat: no-repeat;
+  
+  /* 文字色を落ち着いた濃いチャコールグレーに */
+  color: #2c302e;
+}
+
+/* 見出しも統一して引き締まったグレーに */
+h1, h2, h3, h4 {
+  color: #2c302e;
+}
+
+/* DIARIO（一覧ページ）や記事の中だけ背景を無地にしたい場合 */
+.page-posts, .page-favorite-books {
+  background-image: none !important;
+  background-color: #fafafa !important;
+}

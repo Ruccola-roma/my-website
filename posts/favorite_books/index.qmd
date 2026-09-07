@@ -6,15 +6,17 @@ categories: [Letture, Saggio, Filosofia, 日本文学]
 
 ```{=html}
 <style>
-body {
-  background-image: none !important;
-  background-color: #fafafa !important;
-  color: #2c302e !important;
-}
+
 
 h1, h2, h3 {
   color: #2c302e !important;
 }
+
+body {
+  background-image: none !important;
+  background-color: #fafafa !important;
+}
+
 </style>
 ```
 <br>
