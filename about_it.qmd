@@ -2,6 +2,7 @@
 title: "Mio Profilo"
 title-block-banner: roma.JPG
 title-block-banner-color: white
+body-classes: "page-about"
 ---
 
 #Dall'espresso al filtro ☕️
