@@ -1,6 +1,6 @@
 project:
   type: website
-  output-dir: docs    # ← この1行を追加！
+  output-dir: docs    # ← この1行を追加した
 
 website:
   title: ""
