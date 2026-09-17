@@ -6,4 +6,6 @@ body-classes: "page-about"
 
 Scrivere per non perdere la forma delle cose effimere.
 
-Un quaderno intimo dove raccogliere pensieri, silenzi e la luce che si posa sulla vita di ogni giorno.
+Un quaderno dove raccogliere pensieri,
+
+silenzi e la luce che si posa sulla vita di ogni giorno.

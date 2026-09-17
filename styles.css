@@ -101,3 +101,19 @@ body.page-about::before {
   z-index: -1;
   pointer-events: none;
 }
+
+/* リンクの文字色（左下の Versione italiana など） */
+a {
+  color: #243342; /* お好みの色コード */
+}
+
+/* リンクにマウスを乗せたときの色 */
+a:hover {
+  color: #1a242f;
+}
+
+/* 右側目次（On this page）のアクティブな文字と左の線の色 */
+div.sidebar nav[role=doc-toc] ul li a.active {
+  border-left-color: #243342 !important;
+  color: #243342 !important;
+}
