@@ -28,6 +28,11 @@ format:
     toc: true
     mainfont: "Georgia"          # 本文：上品で読みやすいセリフ体
     monofont: "Menlo, monospace"        # コードなど
+    favicon: favicon.png
+    include-in-header:
+      - text: |
+          <link rel="apple-touch-icon" href="apple-touch-icon.png">
 
 editor: visual
 
+    
