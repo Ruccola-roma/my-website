@@ -1,8 +1,8 @@
 ---
 title: "Ruca | Saggi"
+title-block-banner: "#243342"
+title-block-banner-color: white 
 body-classes: "page-home"
-title-block-banner: "#2433424"
-title-block-banner-color: white  
 ---
 
 言葉と珈琲、街の陰翳。

@@ -1,11 +1,13 @@
 ---
 title: "Ruca | Saggi"
-title-block-banner: roma.JPG
-title-block-banner-color: black
+title-block-banner: "#243342"
+title-block-banner-color: white
+body-classes: "page-home"
 ---
+
 Dal Giappone all'Italia
 
-Parole, caffè e la luce di Roma. 
+Parole, caffè e la luce di Roma.
 
 Frammenti quotidiani e memorie da una piccola stanza.
 

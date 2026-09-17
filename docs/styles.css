@@ -53,6 +53,7 @@ body.page-favorite-books .navbar .navbar-brand {
    4. ページ別背景設定
    ======================================================= */
 /* =======================================================
+  /* =======================================================
    2. HOME (index.qmd)
    ======================================================= */
 body.page-home {
@@ -61,10 +62,9 @@ body.page-home {
   background-size: cover !important;
   background-position: center top !important;
   background-repeat: no-repeat !important;
-   スクロールしても背景とベールが崩れない */
 }
 
-/* ページ全体（上から最下部まで）に白ベールを重ねる */
+/* ページ全体に白ベールを重ねる */
 body.page-home::before {
   content: "";
   position: fixed;
@@ -72,48 +72,130 @@ body.page-home::before {
   left: 0;
   width: 100vw;
   height: 100vh;
-  background-color: rgba(250, 250, 250, 0.70); /* ここで白の濃さを調整（0.85 = 85%） */
-  z-index: -1; /* 文字の背面に配置 */
+  background-color: rgba(250, 250, 250, 0.75); /* 白の濃さ（0.70〜0.80が上品） */
+  z-index: -1;
   pointer-events: none;
 }
 
+/* PC幅で写真を隠している要素を根こそぎ透明化 */
+html,
+body.page-about,
+body.page-about .quarto-container,
+body.page-about #quarto-content,
+body.page-about #quarto-content > div,
+body.page-about .page-columns,
+body.page-about .page-rows,
+body.page-about main,
+body.page-about main.content,
+body.page-about article {
+  background: transparent !important;
+  background-color: transparent !important;
+}
+
+/* 念のため背景画像をhtmlとbodyの両方に当てる */
+html:has(body.page-about),
+body.page-about {
+  background-image: 
+    linear-gradient(rgba(250, 250, 250, 0.82), rgba(250, 250, 250, 0.82)),
+    url('profilo.JPG') !important;
+  background-size: cover !important;
+  background-position: center top !important;
+  background-repeat: no-repeat !important;
+}/* =======================================================
+   2. HOME (index.qmd / index_it.qmd)
+   ======================================================= */
+html:has(body.page-home),
+body.page-home,
+body.page-home .quarto-container,
+body.page-home #quarto-content,
+body.page-home #quarto-content > div,
+body.page-home .page-columns,
+body.page-home .page-rows,
+body.page-home main,
+body.page-home main.content,
+body.page-home article {
+  background: transparent !important;
+  background-color: transparent !important;
+}
+
+html:has(body.page-home),
+body.page-home {
+  background-image: 
+    linear-gradient(rgba(250, 250, 250, 0.75), rgba(250, 250, 250, 0.75)),
+    url('roma.JPG') !important;
+  background-size: cover !important;
+  background-position: center top !important;
+  background-repeat: no-repeat !important;
+  min-height: 100vh; /* 画面いっぱいに広げる */
+}
 /* =======================================================
-   3. PROFILO (about.qmd)
+  /* =======================================================
+   3. PROFILO (about.qmd / about_it.qmd)
    ======================================================= */
 body.page-about {
-  position: relative;
-  background-image: url('profilo.JPG') !important;
+  /* 白ベール（82%の白）と画像を1行で重ねる（確実に貫通する） */
+  background-image: 
+    linear-gradient(rgba(250, 250, 250, 0.82), rgba(250, 250, 250, 0.82)),
+    url('profilo.JPG') !important;
+  background-size: cover !important;
+  background-position: center top !important;
+  background-repeat: no-repeat !important;
+  background-attachment: fixed !important;
+  background-color: transparent !important;
+}
+
+/* PC幅でQuartoが張る白い幕をすべて無効化する */
+body.page-about,
+body.page-about #quarto-content,
+body.page-about #quarto-content > *,
+body.page-about .page-columns,
+body.page-about main,
+body.page-about main.content,
+body.page-about .quarto-about-solana,
+body.page-about .quarto-about-trestles {
+  background: transparent !important;
+  background-color: transparent !important;
+}
+
+/* PC幅で写真を隠している要素を根こそぎ透明化 */
+html,
+body.page-about,
+body.page-about .quarto-container,
+body.page-about #quarto-content,
+body.page-about #quarto-content > div,
+body.page-about .page-columns,
+body.page-about .page-rows,
+body.page-about main,
+body.page-about main.content,
+body.page-about article {
+  background: transparent !important;
+  background-color: transparent !important;
+}
+
+/* 念のため背景画像をhtmlとbodyの両方に当てる */
+html:has(body.page-about),
+body.page-about {
+  background-image: 
+    linear-gradient(rgba(250, 250, 250, 0.82), rgba(250, 250, 250, 0.82)),
+    url('profilo.JPG') !important;
   background-size: cover !important;
   background-position: center top !important;
   background-repeat: no-repeat !important;
   background-attachment: fixed !important;
 }
 
-/* ページ全体に白ベールを重ねる */
-body.page-about::before {
-  content: "";
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
-  background-color: rgba(250, 250, 250, 0.70); /* 0.85 = 85% */
-  z-index: -1;
-  pointer-events: none;
+/* プロフィール内のリンク色を黄緑から落ち着いた色へ変更 */
+.page-about a,
+.page-about main a {
+  color: #243342 !important;              /* ヘッダーと同じ深みのある濃紺 */
+  text-decoration: underline;            /* 下線をつける（不要なら none） */
+  text-underline-offset: 4px;            /* 下線を少し離して上品に */
+  transition: color 0.2s ease, opacity 0.2s ease;
 }
 
-/* リンクの文字色（左下の Versione italiana など） */
-a {
-  color: #243342; /* お好みの色コード */
-}
-
-/* リンクにマウスを乗せたときの色 */
-a:hover {
-  color: #1a242f;
-}
-
-/* 右側目次（On this page）のアクティブな文字と左の線の色 */
-div.sidebar nav[role=doc-toc] ul li a.active {
-  border-left-color: #243342 !important;
-  color: #243342 !important;
+/* マウスホバー時の挙動 */
+.page-about a:hover,
+.page-about main a:hover {
+  color: #5c4033 !important;              /* 珈琲のような深いブラウンに変化 */
+  opacity: 0.8;
 }

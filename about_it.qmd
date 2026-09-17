@@ -4,6 +4,12 @@ title-block-banner: "#243342"
 body-classes: "page-about"
 ---
 
+Stai in salute?
+
+Eccomi sono ruca.
+
+<br>
+
 Scrivere per non perdere la forma delle cose effimere.
 
 Un quaderno dove raccogliere pensieri,
